@@ -1,0 +1,4 @@
+= Alpine and openjdk-8
+
+Base point for your java 8 applications. The file `entrypoint.sh` serves as a template.
+Copy it into your project and modify accordingly.
