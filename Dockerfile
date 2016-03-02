@@ -3,7 +3,7 @@ FROM josefcs/alpine-base
 MAINTAINER Josef.Seibl@gmail.com
 
 # Also installs jdk
-RUN apk-install openjdk8-jre
+RUN apk-install openjdk8
 
 # Copy the following lines into your java app container and add entrypoint.sh and your jar accordingly
 # COPY entrypoint.sh /srv/entrypoint.sh
